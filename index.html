@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator - v1.0</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+
+  <body>
+    <div id="container">
+      <h1>Vape Calculator</h1>
+
+      <div id="calculator">
+
+        <form>
+          <label>
+            Total Batch Size:
+            <input type="text" id="batchSize">ml
+          </label>
+          <label>
+            VG/PG Ratio<br>
+            <input type="text" id="vgRatio">% VG<br>
+            <input type="text" id="pgRatio">% PG
+          </label>
+          <label>
+            Nicotine Base Strength:
+            <input type="text" id="nicBase">
+          </label>
+          <label>
+            Nicotine Batch Target Strength:
+            <input type="text" id="nicTarget">
+          </label>
+          <button type="button" id="calculate">Calculate</button>
+        </form>
+
+      </div> <!-- end calculator -->
+
+      <div id="totalTip">
+        <sup>$</sup><span id="tip">0.00</span>
+        <small id="each">each</small>
+      </div> <!-- end totalTip -->
+    </div> <!-- end container -->
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+
+</html>
