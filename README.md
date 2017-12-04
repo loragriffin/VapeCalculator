@@ -1,2 +1,4 @@
 # VapeCalculator
-Tool to calculate totals for making your own e-juice.
+
+## About
+Tool to calculate totals for making your own custom e-juice.
